@@ -106,6 +106,8 @@ function addKeyListeners() {
         if (gameState == 2) {
           init();
           $("#gaveoverscreenlayout").fadeOut();
+          $("#worldwidescorelayout").fadeOut();
+          $('#worldwidescoredisplay').empty();
         }
         if (gameState===0) {
           resumeGame();
